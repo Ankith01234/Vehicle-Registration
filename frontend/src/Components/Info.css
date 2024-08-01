@@ -1,0 +1,39 @@
+.heading{
+    text-align: center;
+    color: white;
+    background-color:  rgb(148, 67, 148);
+}
+
+.bg-purple{
+    background-color: rgb(148, 67, 148);
+}
+
+.border-purple{
+    border:5px solid rgb(148, 67, 148);
+}
+
+.btn-purple{
+    background-color: rgb(148, 67, 148);
+    color: white;
+    margin-top: 10px;
+    border: rgb(148, 67, 148);
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-purple:hover {
+    background-color: white;
+    color: rgb(148, 67, 148);
+    border: 2px solid rgb(148, 67, 148);
+}
+
+.para-border{
+    border:3px solid rgb(148, 67, 148) ;
+    background-color: rgb(151, 80, 151) ;
+    color:white;
+    text-align: justify;
+    padding: 10px;
+}

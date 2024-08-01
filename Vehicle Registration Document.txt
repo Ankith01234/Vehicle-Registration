@@ -1,0 +1,66 @@
+									VEHICLE REGISTRATON
+
+1). Application Manager
+----------------------------------------------
+-Login
+-Add Rto Staff  (View,Send EmailId)
+-Add Police Station (Add based on Area)
+-Add Insurance Company 
+----------------------------------------------
+
+
+2). Rto
+----------------------------------------------
+-Login
+-Add user(Basic Details of the user)
+-Add Vehicle(add vehicle to the existing user)
+-Check any transaction details of the buyer(Checking the documents upload by the buyer,if all the documents are correct the ownership will transfer from user to buyer)
+-Staff will Accept the Ownership transfer from the buyer & the vehicle name is transfered from the user to buyer.
+-After acceptation of the Rto Staff,
+		-Firstly it will go and add to the user table
+		-Later buyer id will be replaced to the vehicle Number in the Add vehicle Table
+		-In the Transfer Vehicle table "transfercompleted" is updated in the place of pending
+		-In the Transfer Ownership table userid and buyer id will be added (This is the history of the ownership vehicle details)
+----------------------------------------------
+
+
+3). Insurance Company
+----------------------------------------------
+-Login
+-Add vehicle Insurance to the existing registered vehicle in the Rto(Insurance for 1 Year)
+-View Vehicle Insurance Details
+----------------------------------------------
+
+
+4). Police Station
+----------------------------------------------
+-Login
+-Add Crime(Decription,Date and View)
+-Add Existing Crime to the Existing Registered Vehicle in the Rto
+-Search Vehicle
+	--List Vehicle Details
+	--List Vehicle User Details
+	--List Insurance Company
+----------------------------------------------
+
+
+5). Buyer Registration
+----------------------------------------------
+-Buyer will Create his Account(Id & Password sent to Gmail)
+-Login
+-Buyer will Check the Ownership History of the Vehicle
+-Transfer Option is available for the Buyer to Sent a Ownership transfer message to the Rto Staff. 
+-Search Vehicle
+	--List Vehicle Details
+	--List Crime Details
+	--List User Details
+	--List Insurance Details
+-----------------------------------------------
+
+
+6).Forgot Password
+-----------------------------------------------
+-Integration of the Forgot password
+-Firstly the code will Check the gmail is Exist or Not, if Exists the otp is sent to the gmail.
+-If the user Entered the correct otp, website will allow him to change the password.
+----------------------------------------------- 
